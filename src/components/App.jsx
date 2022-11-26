@@ -4,9 +4,7 @@ import { Section } from './Section/Sections';
 import { Statistics } from './Statistics/Statistics';
 import { Notification } from './Notification/Notification';
 
-
 import style from './App.module.css';
-
 
 class App extends React.Component {
   state = {
@@ -15,22 +13,21 @@ class App extends React.Component {
     bad: 0,
   };
 
-
- countTotalFeedback() {
+  countTotalFeedback() {
     const { good, neutral, bad } = this.state;
-    return good + neutral + bad
- }
-  
+    return good + neutral + bad;
+  }
+
   countPositiveFeedbackPercentage() {
     return Math.round((this.state.good / this.countTotalFeedback()) * 100);
-}
+  }
 
   onLeaveFeedback = state => {
     this.setState(prevState => ({
       [state]: prevState[state] + 1,
     }));
   };
- 
+
   render() {
     const { good, neutral, bad } = this.state;
     const options = Object.keys(this.state);
