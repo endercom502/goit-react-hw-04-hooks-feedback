@@ -1,0 +1,25 @@
+.option {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.good {
+    composes: option;
+    color: #3A9D23;
+}
+
+.positive {
+    composes: option;
+    font-size: 24px;
+    color: #FFFCF0;
+}
+
+.neutral {
+    composes: option;
+    color: #9C9CA6;
+}
+
+.bad {
+    composes: option;
+    color: #FC1414;
+}
