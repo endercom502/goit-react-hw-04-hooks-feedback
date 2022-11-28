@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/endercom502/goit-react-hw-04-hooks-feedback.git/static/css/main.16558914.css",
-    "main.js": "/endercom502/goit-react-hw-04-hooks-feedback.git/static/js/main.93f212d5.js",
+    "main.js": "/endercom502/goit-react-hw-04-hooks-feedback.git/static/js/main.f73c44b0.js",
     "index.html": "/endercom502/goit-react-hw-04-hooks-feedback.git/index.html",
     "main.16558914.css.map": "/endercom502/goit-react-hw-04-hooks-feedback.git/static/css/main.16558914.css.map",
-    "main.93f212d5.js.map": "/endercom502/goit-react-hw-04-hooks-feedback.git/static/js/main.93f212d5.js.map"
+    "main.f73c44b0.js.map": "/endercom502/goit-react-hw-04-hooks-feedback.git/static/js/main.f73c44b0.js.map"
   },
   "entrypoints": [
     "static/css/main.16558914.css",
-    "static/js/main.93f212d5.js"
+    "static/js/main.f73c44b0.js"
   ]
 }
